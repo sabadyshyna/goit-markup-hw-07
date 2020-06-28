@@ -6,32 +6,32 @@
 .client {
   display: flex;
   justify-content: space-between;
-}
 
-.client .link {
-  display: flex;
-  width: 170px;
-  height: 90px;
-  border: 1px solid $icon-color;
-  color: $icon-color;
-  border-radius: 4px;
-  align-items: center;
-  justify-content: center;
+  .link {
+    display: flex;
+    width: 170px;
+    height: 90px;
+    border: 1px solid $icon-color;
+    color: $icon-color;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
 
-  transition: color 250ms $cubic, border 250ms $cubic;
-}
+    transition: color 250ms $cubic, border 250ms $cubic;
 
-.client .link:hover,
-.client .link:focus {
-  border: 1px solid $accent-color;
-  color: $accent-color;
+    &:hover,
+    &:focus {
+      border: 1px solid $accent-color;
+      color: $accent-color;
+    }
+  }
 }
 
 .client .icon {
   fill: currentColor;
-}
 
-.client .icon:hover,
-.client .icon:focus {
-  fill: currentColor;
+  &:hover,
+  &:focus {
+    fill: currentColor;
+  }
 }

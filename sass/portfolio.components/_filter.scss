@@ -2,6 +2,10 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+
+  .item:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 
 .filter-button {
@@ -20,14 +24,10 @@
   text-align: center;
 
   transition: color 250ms $cubic, background-color 250ms $cubic;
-}
 
-.filter .item:not(:last-child) {
-  margin-right: 8px;
-}
-
-.filter-button:hover,
-.filter-button:focus {
-  color: $acent-text-color;
-  background-color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $acent-text-color;
+    background-color: $accent-color;
+  }
 }

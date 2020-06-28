@@ -6,12 +6,12 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity 250ms $cubic, transform 50ms $cubic;
-}
 
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  transform: scale(1.08);
+  &.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(1.08);
+  }
 }
 
 .modal {
@@ -27,32 +27,32 @@
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
 
-.modal .header {
-  font-weight: bold;
-  font-size: 20px;
-  color: #212121;
+  .header {
+    font-weight: bold;
+    font-size: 20px;
+    color: #212121;
 
-  margin: 0 auto 30px auto;
-}
+    margin: 0 auto 30px auto;
+  }
 
-.modal .close {
-  position: absolute;
-  right: -9px;
-  top: -10px;
-  width: 30px;
-  height: 30px;
-  padding: 6px;
-  overflow: hidden;
-  border: none;
-  outline: none;
-  cursor: pointer;
+  .close {
+    position: absolute;
+    right: -9px;
+    top: -10px;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    cursor: pointer;
 
-  border-radius: 50%;
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12);
-  background-color: $primery-bg-color;
+    border-radius: 50%;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 1px 3px rgba(0, 0, 0, 0.12);
+    background-color: $primery-bg-color;
+  }
 }
 
 .form-field {

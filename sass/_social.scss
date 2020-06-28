@@ -12,11 +12,11 @@
   border-radius: 50%;
 
   transition: fill 250ms $cubic, background-color 250ms $cubic;
-}
 
-.social .icon:hover,
-.social .icon:focus {
-  fill: $primery-bg-color;
-  background-color: $accent-color;
-  border-radius: 50%;
+  &:hover,
+  &:focus {
+    fill: $primery-bg-color;
+    background-color: $accent-color;
+    border-radius: 50%;
+  }
 }

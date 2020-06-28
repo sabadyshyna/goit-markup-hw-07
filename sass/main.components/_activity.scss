@@ -5,17 +5,17 @@
 
 .activity {
   display: flex;
-}
 
-.activity > .item {
-  position: relative;
+  .item {
+    position: relative;
 
-  border-radius: 4px;
-  overflow: hidden;
-}
+    border-radius: 4px;
+    overflow: hidden;
 
-.activity .item:not(:last-child) {
-  margin-right: 30px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
 }
 
 .activity-text {

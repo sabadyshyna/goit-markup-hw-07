@@ -134,9 +134,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav .link.current,
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link.current, .site-nav .link:hover, .site-nav .link:focus {
   position: relative;
   color: #2196f3;
 }
@@ -181,8 +179,7 @@ img {
   margin-right: 30px;
 }
 
-.address-nav .link:hover,
-.address-nav .link:focus {
+.address-nav .link:hover, .address-nav .link:focus {
   color: #2196f3;
 }
 
@@ -191,8 +188,7 @@ img {
   fill: currentColor;
 }
 
-.address-nav .icon:hover,
-.address-nav .icon:focus {
+.address-nav .icon:hover, .address-nav .icon:focus {
   fill: currentColor;
 }
 
@@ -245,8 +241,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-address:hover,
-.footer-address:focus {
+.footer-address:hover, .footer-address:focus {
   color: #ffffff;
 }
 
@@ -273,8 +268,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.join .icon:hover,
-.join .icon:focus {
+.join .icon:hover, .join .icon:focus {
   background-color: #2196f3;
 }
 
@@ -393,6 +387,20 @@ img {
   margin-right: 30px;
 }
 
+.features .title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
 .bg-icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -408,20 +416,6 @@ img {
           justify-content: center;
 }
 
-.features .title {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-
-.features .text {
-  font-size: 14px;
-  line-height: 1.71;
-}
-
 .main-activity {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -433,7 +427,7 @@ img {
   display: flex;
 }
 
-.activity > .item {
+.activity .item {
   position: relative;
   border-radius: 4px;
   overflow: hidden;
@@ -478,17 +472,8 @@ img {
   overflow: hidden;
 }
 
-.worker .item:not(:last-child) {
+.worker > .item:not(:last-child) {
   margin-right: 30px;
-}
-
-.worker-title {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
 }
 
 .worker .text {
@@ -508,6 +493,15 @@ img {
   padding-bottom: 24px;
 }
 
+.worker-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
 .social .link {
   display: block;
   height: 44px;
@@ -524,8 +518,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social .icon:hover,
-.social .icon:focus {
+.social .icon:hover, .social .icon:focus {
   fill: #ffffff;
   background-color: #2196f3;
   border-radius: 50%;
@@ -564,8 +557,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client .link:hover,
-.client .link:focus {
+.client .link:hover, .client .link:focus {
   border: 1px solid #2196f3;
   color: #2196f3;
 }
@@ -574,8 +566,7 @@ img {
   fill: currentColor;
 }
 
-.client .icon:hover,
-.client .icon:focus {
+.client .icon:hover, .client .icon:focus {
   fill: currentColor;
 }
 
@@ -835,8 +826,7 @@ img {
   margin-bottom: 30px;
 }
 
-.portfolio .item:hover,
-.portfolio .item:focus {
+.portfolio .item:hover, .portfolio .item:focus {
   -webkit-box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
           box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
@@ -934,6 +924,10 @@ img {
   margin-bottom: 50px;
 }
 
+.filter .item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .filter-button {
   display: inline-block;
   border-radius: 4px;
@@ -950,12 +944,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter .item:not(:last-child) {
-  margin-right: 8px;
-}
-
-.filter-button:hover,
-.filter-button:focus {
+.filter-button:hover, .filter-button:focus {
   color: #ffffff;
   background-color: #2196f3;
 }

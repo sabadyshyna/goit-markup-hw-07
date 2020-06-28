@@ -44,11 +44,11 @@
   line-height: 1.71;
 
   transition: color 250ms $cubic;
-}
 
-.footer-address:hover,
-.footer-address:focus {
-  color: $acent-text-color;
+  &:hover,
+  &:focus {
+    color: $acent-text-color;
+  }
 }
 
 .join .list {
@@ -70,11 +70,11 @@
   border-radius: 50%;
 
   transition: background-color 250ms $cubic;
-}
 
-.join .icon:hover,
-.join .icon:focus {
-  background-color: $accent-color;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
 
 .subscribe-form {
@@ -92,16 +92,16 @@
   border-radius: 4px;
   transition: border 250ms $cubic;
   outline: none;
-}
 
-.subscribe-input:focus {
-  border: 1px solid $accent-color;
-}
+  &:focus {
+    border: 1px solid $accent-color;
+  }
 
-.subscribe-input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  color: $footer-address-color;
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: $footer-address-color;
+  }
 }
 
 .subscribe .button {
