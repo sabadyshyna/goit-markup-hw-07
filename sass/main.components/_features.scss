@@ -1,0 +1,41 @@
+.main-features {
+  padding-top: 94px;
+}
+
+.features {
+  display: flex;
+  padding-bottom: 94px;
+  border-bottom: 1px solid #ececec;
+}
+
+.features .item {
+  width: 270px;
+}
+
+.features .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.bg-icon {
+  display: flex;
+  background-color: $secondary-bg-color;
+  height: 120px;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.features .title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
