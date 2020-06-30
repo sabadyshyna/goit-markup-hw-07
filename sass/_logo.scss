@@ -1,21 +1,28 @@
 .logo {
-  color: $accent-color;
+  display: inline-block;
 
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  font-style: normal;
-}
-.sub-logo {
-  color: $logo-black-color;
+  width: 152px;
+  height: 20px;
 }
 
-.footer-logo {
-  color: $acent-text-color;
+// .logo {
+//   color: $accent-color;
 
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 1.2;
-}
+//   font-family: Raleway, sans-serif;
+//   font-weight: 700;
+//   font-size: 26px;
+//   line-height: 1.2;
+//   font-style: normal;
+// }
+// .sub-logo {
+//   color: $logo-black-color;
+// }
+
+// .footer-logo {
+//   color: $acent-text-color;
+
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 22px;
+//   line-height: 1.2;
+// }
