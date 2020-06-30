@@ -204,6 +204,7 @@
   &:hover,
   &:focus,
   &:active {
-    border: 2px solid $accent-color;
+    color: $headlines-text-color;
+    background-color: $secondary-bg-color;
   }
 }

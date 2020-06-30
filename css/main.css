@@ -83,6 +83,8 @@ img {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover, .button:focus, .button:active {
@@ -790,7 +792,8 @@ img {
 }
 
 .modal .button:hover, .modal .button:focus, .modal .button:active {
-  border: 2px solid #2196f3;
+  color: #212121;
+  background-color: #f5f4fa;
 }
 
 .main-portfolio {

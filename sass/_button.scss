@@ -13,6 +13,7 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  transition: color 250ms $cubic, background-color 250ms $cubic;
 
   &:hover,
   &:focus,
