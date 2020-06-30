@@ -200,4 +200,10 @@
 .modal .button {
   margin: 0 auto;
   padding: 10px 55px;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border: 2px solid $accent-color;
+  }
 }

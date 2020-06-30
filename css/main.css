@@ -789,6 +789,10 @@ img {
   padding: 10px 55px;
 }
 
+.modal .button:hover, .modal .button:focus, .modal .button:active {
+  border: 2px solid #2196f3;
+}
+
 .main-portfolio {
   padding-top: 93px;
   padding-bottom: 94px;
